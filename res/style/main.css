@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'text';
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'text';
+    font-weight: bold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'title';
+    src: url(../fonts/Bitter-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: 'text', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'title';
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #999;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    margin-top: 75px;
+    min-height: 900px;
+    padding: 25px;
+}
+
+main > section{
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ddd;
+    height: 120px;
+}
