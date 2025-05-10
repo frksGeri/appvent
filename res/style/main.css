@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'text';
+    src: url(../fonts/OpenSans_Condensed-Light.ttf);
+}
+
+@font-face {
+    font-family: 'text';
+    font-weight: bold;
+    src: url(../fonts/OpenSans_SemiCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'title';
+    src: url(../fonts/OpenSans_SemiCondensed-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+html,
+body{
+    height: 100% ;
+    -webkit-tap-highlight-color: transparent;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'text', san-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+h1, h2, h3, h4{
+    font-family: 'title';
+}
